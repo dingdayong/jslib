@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title></title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+        
+        <LINK REL=StyleSheet HREF="../src/calendar.css" TYPE="text/css">
+		<SCRIPT LANGUAGE="JavaScript" SRC="../src/weeklycalendar.js">
+		</SCRIPT>
+
+	</head>
+	<body>
+	<table border="1" ><tr><td style="height: 78px">
+        Date picker</td><td style="height: 78px">
+		<input type="text"  name="DatePicker" id="DatePicker" size="35" maxlength="80">
+		<input type="button" value="..." onClick="w_displayCalendar('DatePicker',null);"></td></tr>
+</td></tr>
+	<tr><td style="height: 131px">
+        Weekly Range Selector</td><td style="height: 131px">
+		Start day: <input type="text"  name="WeeklyDateStart" id="WeeklyDateStart" size="35" maxlength="80"><br />
+		End day: <input type="text"  name="WeeklyDateEnd" id="WeeklyDateEnd" size="35" maxlength="80">
+		<input type="button" value="..." onClick="w_displayCalendar('WeeklyDateStart','WeeklyDateEnd');"></td></tr>
+	</table>
+        &nbsp; &nbsp; &nbsp;
+		
+	</body>
+
+		<script language="javascript">
+				buildWeeklyCalendar(0);
+
+		</script>
+</html>
