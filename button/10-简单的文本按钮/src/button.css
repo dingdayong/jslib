@@ -1,0 +1,42 @@
+.button {
+  border: 1px solid White;
+  padding: 5px;
+  width: 80px;
+  color: White;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1em;
+  font-weight: normal;
+  text-align: center;
+  height: 1.25em;
+  background-color: Black;
+} 
+
+.button a:link {
+
+    text-decoration : none;
+
+    color : White;
+
+}
+
+.button a:hover {
+
+    text-decoration: none;
+
+    color : White;
+
+    font-weight : bold;
+
+    background : Blue;
+
+}
+
+.button a:visited {
+
+    text-decoration : none;
+
+    color : #BBBBBB;
+
+    background : #333333;
+
+} 
